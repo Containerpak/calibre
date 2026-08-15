@@ -15,7 +15,7 @@ LABEL org.opencontainers.image.source="https://github.com/Containerpak/calibre"
 COPY --from=source /out /opt/calibre
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends ca-certificates libegl1 libgl1 libxkbcommon-x11-0 xdg-utils && \
+    apt-get install -y --no-install-recommends ca-certificates libegl1 libgl1 libopengl0 libxkbcommon-x11-0 xdg-utils && \
     ln -sf /opt/calibre/calibre /usr/bin/calibre && \
     cpak-clean-junk
 
