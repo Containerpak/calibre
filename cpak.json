@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "calibre",
   "description": "Manage and read your e-book library.",
-  "version": "9.11.0",
+  "version": "9.13.0",
   "image": "ghcr.io/containerpak/calibre:main",
   "binaries": [
     "/usr/bin/calibre"

@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:3c2a11fba0f6b8bb332f0baf474ee1a43a65a41c4977dd9b3e548336b1084866 https://github.com/kovidgoyal/calibre/releases/download/v9.11.0/calibre-9.11.0-x86_64.txz /tmp/app.txz
+ADD --checksum=sha256:d664fe74953463f1b679945a5460234b61cbf539da48fc78f2111ff8d9503cc0 https://github.com/kovidgoyal/calibre/releases/download/v9.13.0/calibre-9.13.0-x86_64.txz /tmp/app.txz
 
 RUN mkdir -p /out && \
     tar -xJf /tmp/app.txz -C /out
