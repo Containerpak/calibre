@@ -1,5 +1,8 @@
 FROM ubuntu:26.04 AS source
 
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends xz-utils
+
 ADD --checksum=sha256:d664fe74953463f1b679945a5460234b61cbf539da48fc78f2111ff8d9503cc0 https://github.com/kovidgoyal/calibre/releases/download/v9.13.0/calibre-9.13.0-x86_64.txz /tmp/app.txz
 
 RUN mkdir -p /out && \
