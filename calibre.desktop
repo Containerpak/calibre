@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=calibre
+Comment=Manage and read your e-book library.
+Exec=calibre %F
+Icon=calibre
+Terminal=false
+Categories=Office;Viewer;
