@@ -4,7 +4,7 @@
   "name": "calibre",
   "description": "Manage and read your e-book library.",
   "version": "9.13.0",
-  "image": "ghcr.io/containerpak/calibre@sha256:487bc7b63488c2017351b7d7b09f4661c829dd2f22060a959d3a6a7af47b0e9e",
+  "image": "ghcr.io/containerpak/calibre@sha256:67d7546808315dbbd24151da0f70d4485bdc55bed2f7c0ea8cf5ad6fea1fc93b",
   "binaries": [
     "/usr/bin/calibre"
   ],
